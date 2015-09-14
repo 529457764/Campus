@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: black;
+}
+header {
+	height: 120px;
+	overflow: hidden;
+}
+header h3 {
+	font-weight: 300;
+	float: left;
+	position: relative;
+	left: 30%;
+	top: 50px;
+}
+header .logo {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 10px;
+}
+.wrapper {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 0;
+}
+.header {
+	padding: 0 120px 50px 120px;
+}
+.header img{
+	width: 960px;
+}
+
+.content {
+	padding: 0 120px;
+}
+.content .block {
+	float: left;
+	padding-bottom: 50px;
+}
+.content .block .block-header {
+	width: 100px;
+	padding: 0 15px;
+	border-left: 10px solid rgb(82, 82, 82);
+	background: rgb(176, 210, 51);
+	position: relative;
+	left: 310px;
+}
+.content .block .block-left {
+	float: left;
+}
+.content .block .block-left img {
+	width: 300px;
+}
+.content .block .block-right {
+	padding-left: 20px;
+	float: left;
+	width: 400px;
+}
+.content .block .block-right .text, .chart .chart-header .text {
+	padding-bottom:  15px;
+}
+.content .block .block-right .title {
+	padding-top: 30px;
+}
+
+.chart {
+	clear: left;
+}
+.chart .chart-header {
+	padding: 0 120px;
+}
+.chart .chart-photo {
+	padding: 0 80px;
+}
+.chart .chart-photo img {
+	width: 960px;
+}
+.footer {
+	padding: 0 120px;
+}
+.footer .footer-left {
+	width: 300px;
+	padding-top: 20px;
+	float: left;
+}
+.footer .footer-left .footer-left-photo {
+	width: 250px;
+}
+.footer .footer-right {
+	width: 700px;
+}
+.footer-right .footer-right-photo {
+	width: 400px;
+	padding: 30px 0;
+}
+.blue {
+	color: blue;
+}
+.green {
+	color: rgb(176, 210, 51);
+}
+
+footer {
+	width: 960px;
+	height: 250px;
+	padding: 50px 20px 50px;
+	clear: both;
+	margin: auto;
+	background: rgb(156, 186, 88);
+}
+footer .left {
+	padding-right: 100px;
+	float: left;
+}
+footer .left-content {
+	width: 520px;
+	padding-bottom: 10px;
+}
+footer .left-content .left-text {
+	padding-bottom: 10px;
+	text-align: center;
+	font-style: italic;
+}
+footer .left-content .text {
+	line-height: 25px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+footer .left .left-footer img {
+	width: 30px;
+}
+footer .left .left-footer a {
+	padding-right: 10px;
+}
+footer .right {
+	width: 300px;
+	float: left;
+	position: relative;
+	top: -10%;
+}
+footer .right img {
+	width: 200px;
+	padding-bottom: 30px;
+}
